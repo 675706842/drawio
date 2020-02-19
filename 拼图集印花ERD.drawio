@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-02-19T08:00:17.695Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="gJGgsw8fdeUxLc-zgc8a" version="12.7.1" type="github">
+<mxfile host="www.draw.io" modified="2020-02-19T10:35:03.417Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="OXOsDsXovEtl5nIq7-sg" version="12.7.1" type="github">
   <diagram id="7BTFhG5sN_cPpJs926Fj" name="第 1 页">
     <mxGraphModel dx="916" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -43,7 +43,7 @@
           <mxGeometry y="182" width="230" height="26" as="geometry" />
         </mxCell>
         <mxCell id="uXNEWNocd3E9-7-9gSWc-47" value="puzzle_flow（账户流水）" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="300" y="50" width="230" height="260" as="geometry">
+          <mxGeometry x="300" y="50" width="230" height="286" as="geometry">
             <mxRectangle x="60" y="1040" width="210" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -62,17 +62,20 @@
         <mxCell id="uXNEWNocd3E9-7-9gSWc-77" value="association 单号" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="uXNEWNocd3E9-7-9gSWc-47" vertex="1">
           <mxGeometry y="130" width="230" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="uXNEWNocd3E9-7-9gSWc-52" value="act_id 活动id" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="uXNEWNocd3E9-7-9gSWc-47" vertex="1">
+        <mxCell id="vE5Wcmu8pGLO7yd3Htef-75" value="source 来源" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="uXNEWNocd3E9-7-9gSWc-47">
           <mxGeometry y="156" width="230" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="uXNEWNocd3E9-7-9gSWc-53" value="type 7种流水类型//0任务完成1奖励兑换2赠送3退回" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="uXNEWNocd3E9-7-9gSWc-47" vertex="1">
+        <mxCell id="uXNEWNocd3E9-7-9gSWc-52" value="act_id 活动id" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="uXNEWNocd3E9-7-9gSWc-47" vertex="1">
           <mxGeometry y="182" width="230" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="uXNEWNocd3E9-7-9gSWc-76" value="user_id 用户id" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="uXNEWNocd3E9-7-9gSWc-47" vertex="1">
+        <mxCell id="uXNEWNocd3E9-7-9gSWc-53" value="type 7种流水类型//0任务完成1奖励兑换2赠送3退回" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="uXNEWNocd3E9-7-9gSWc-47" vertex="1">
           <mxGeometry y="208" width="230" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="uXNEWNocd3E9-7-9gSWc-54" value="create_time 创建时间" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="uXNEWNocd3E9-7-9gSWc-47" vertex="1">
+        <mxCell id="uXNEWNocd3E9-7-9gSWc-76" value="user_id 用户id" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="uXNEWNocd3E9-7-9gSWc-47" vertex="1">
           <mxGeometry y="234" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uXNEWNocd3E9-7-9gSWc-54" value="create_time 创建时间" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="uXNEWNocd3E9-7-9gSWc-47" vertex="1">
+          <mxGeometry y="260" width="230" height="26" as="geometry" />
         </mxCell>
         <mxCell id="uXNEWNocd3E9-7-9gSWc-56" value="puzzle_give_log（赠送记录）" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="70" y="258" width="230" height="260" as="geometry">
