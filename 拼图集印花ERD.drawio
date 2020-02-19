@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-02-19T07:53:51.086Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="0uCGcsBNRfVQFiV8ATPm" version="12.7.1" type="github">
+<mxfile host="www.draw.io" modified="2020-02-19T07:58:46.558Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="llWnJO2_H2fcb7xiC9uZ" version="12.7.1" type="github">
   <diagram id="7BTFhG5sN_cPpJs926Fj" name="第 1 页">
     <mxGraphModel dx="916" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -150,7 +150,7 @@
         <mxCell id="lTAeMfMbc0AauGk1_NEG-36" value="wx/app" style="swimlane;startSize=20;" parent="1" vertex="1">
           <mxGeometry x="40" y="1750" width="170" height="1410" as="geometry" />
         </mxCell>
-        <mxCell id="lTAeMfMbc0AauGk1_NEG-38" value="actId，awardId" style="rounded=1;whiteSpace=wrap;html=1;" parent="lTAeMfMbc0AauGk1_NEG-36" vertex="1">
+        <mxCell id="lTAeMfMbc0AauGk1_NEG-38" value="activityId，awardId" style="rounded=1;whiteSpace=wrap;html=1;" parent="lTAeMfMbc0AauGk1_NEG-36" vertex="1">
           <mxGeometry x="25" y="40" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lTAeMfMbc0AauGk1_NEG-49" value="印花不足" style="rounded=1;whiteSpace=wrap;html=1;" parent="lTAeMfMbc0AauGk1_NEG-36" vertex="1">
@@ -171,13 +171,13 @@
         <mxCell id="lTAeMfMbc0AauGk1_NEG-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="lTAeMfMbc0AauGk1_NEG-37" source="lTAeMfMbc0AauGk1_NEG-39" target="lTAeMfMbc0AauGk1_NEG-41" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lTAeMfMbc0AauGk1_NEG-39" value="actId，awardId" style="rounded=1;whiteSpace=wrap;html=1;" parent="lTAeMfMbc0AauGk1_NEG-37" vertex="1">
+        <mxCell id="lTAeMfMbc0AauGk1_NEG-39" value="查询活动信息/查询奖品信息" style="rounded=1;whiteSpace=wrap;html=1;" parent="lTAeMfMbc0AauGk1_NEG-37" vertex="1">
           <mxGeometry x="55" y="40" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lTAeMfMbc0AauGk1_NEG-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="lTAeMfMbc0AauGk1_NEG-37" source="lTAeMfMbc0AauGk1_NEG-41" target="lTAeMfMbc0AauGk1_NEG-43" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lTAeMfMbc0AauGk1_NEG-41" value="查询奖品信息" style="rounded=1;whiteSpace=wrap;html=1;" parent="lTAeMfMbc0AauGk1_NEG-37" vertex="1">
+        <mxCell id="lTAeMfMbc0AauGk1_NEG-41" value="查询用户账户" style="rounded=1;whiteSpace=wrap;html=1;" parent="lTAeMfMbc0AauGk1_NEG-37" vertex="1">
           <mxGeometry x="55" y="130" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lTAeMfMbc0AauGk1_NEG-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="lTAeMfMbc0AauGk1_NEG-37" source="lTAeMfMbc0AauGk1_NEG-43" target="lTAeMfMbc0AauGk1_NEG-51" edge="1">
