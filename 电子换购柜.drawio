@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-01T09:43:07.391Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36" etag="Sc5O84Fe87LJthXehKCn" version="12.9.5" type="github">
+<mxfile host="www.draw.io" modified="2020-04-02T07:38:44.856Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36" etag="-YEoYzfOYN-i8zbena09" version="12.9.5" type="github">
   <diagram id="_H2hld0KvXOal89NalA2" name="第 1 页">
     <mxGraphModel dx="1422" dy="919" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -16,38 +16,34 @@
         <mxCell id="Ok05fjs2bpj7ajgnI6l9-2" value="查询进行中的活动的全部信息" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="250" y="100" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ok05fjs2bpj7ajgnI6l9-45" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Ok05fjs2bpj7ajgnI6l9-4" target="Ok05fjs2bpj7ajgnI6l9-44" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Ok05fjs2bpj7ajgnI6l9-45" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Ok05fjs2bpj7ajgnI6l9-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="340" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Ok05fjs2bpj7ajgnI6l9-4" value="查询进行中的活动的全部信息并放入缓存" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="250" y="240" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Ok05fjs2bpj7ajgnI6l9-46" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Ok05fjs2bpj7ajgnI6l9-44" target="Ok05fjs2bpj7ajgnI6l9-6" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Ok05fjs2bpj7ajgnI6l9-44" value="活动id放入zset,每个活动一个一个key" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="250" y="340" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ok05fjs2bpj7ajgnI6l9-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Ok05fjs2bpj7ajgnI6l9-6" target="Ok05fjs2bpj7ajgnI6l9-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ok05fjs2bpj7ajgnI6l9-6" value="根据经纬度查询市编码" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="250" y="480" width="120" height="60" as="geometry" />
+          <mxGeometry x="250" y="340" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ok05fjs2bpj7ajgnI6l9-47" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Ok05fjs2bpj7ajgnI6l9-8" target="Ok05fjs2bpj7ajgnI6l9-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ok05fjs2bpj7ajgnI6l9-8" value="判断用户定位市编码是否设置了该活动,没设置则剔除此活动" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="250" y="620" width="120" height="60" as="geometry" />
+          <mxGeometry x="250" y="480" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ok05fjs2bpj7ajgnI6l9-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Ok05fjs2bpj7ajgnI6l9-14" target="Ok05fjs2bpj7ajgnI6l9-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ok05fjs2bpj7ajgnI6l9-14" value="查询首页banner并放入缓存" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="250" y="740" width="120" height="60" as="geometry" />
+          <mxGeometry x="250" y="600" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ok05fjs2bpj7ajgnI6l9-16" value="返回" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="50" y="740" width="120" height="60" as="geometry" />
+          <mxGeometry x="50" y="600" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ok05fjs2bpj7ajgnI6l9-50" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Ok05fjs2bpj7ajgnI6l9-48" target="Ok05fjs2bpj7ajgnI6l9-49" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -444,7 +440,7 @@
         <mxCell id="Ok05fjs2bpj7ajgnI6l9-208" value="失败" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="50" y="6190" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ok05fjs2bpj7ajgnI6l9-207" value="券核销通知接口" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="Ok05fjs2bpj7ajgnI6l9-207" value="券核销通知" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="40" y="6000" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Ok05fjs2bpj7ajgnI6l9-214" value="立即使用" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
