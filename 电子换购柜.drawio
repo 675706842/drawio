@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-02T09:46:31.704Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36" etag="Lw3k6gOpSkxDoRXfWG1d" version="12.9.5" type="github">
+<mxfile host="www.draw.io" modified="2020-04-02T09:46:59.383Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36" etag="oWksYdiJ192ZaPoqMfhi" version="12.9.5" type="github">
   <diagram id="_H2hld0KvXOal89NalA2" name="第 1 页">
     <mxGraphModel dx="1422" dy="919" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -333,7 +333,7 @@
             <mxPoint x="620" y="4170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ok05fjs2bpj7ajgnI6l9-161" value="预警库存+3&amp;gt;=已使用库存&amp;gt;=预警库存" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="Ok05fjs2bpj7ajgnI6l9-161" value="预警库存+3&amp;gt;已使用库存&amp;gt;=预警库存" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="420" y="4140" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ok05fjs2bpj7ajgnI6l9-167" value="发送库存预警邮件" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
