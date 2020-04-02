@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-02T09:26:19.615Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36" etag="Rp6w4kbCt5qZ2gE9dNqk" version="12.9.5" type="github">
+<mxfile host="www.draw.io" modified="2020-04-02T09:28:28.517Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36" etag="Bx4F1eWMsGzK0KpBI1Y6" version="12.9.5" type="github">
   <diagram id="_H2hld0KvXOal89NalA2" name="第 1 页">
     <mxGraphModel dx="1422" dy="919" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -256,11 +256,11 @@
         <mxCell id="Ok05fjs2bpj7ajgnI6l9-116" value="失败" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="40" y="3410" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ok05fjs2bpj7ajgnI6l9-130" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Ok05fjs2bpj7ajgnI6l9-128" target="Ok05fjs2bpj7ajgnI6l9-129" edge="1">
+        <mxCell id="yhTUn1hj1hSoAKpHzNoM-49" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" parent="1" source="Ok05fjs2bpj7ajgnI6l9-128" target="yhTUn1hj1hSoAKpHzNoM-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ok05fjs2bpj7ajgnI6l9-128" value="orderCode支付回调" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="50" y="4040" width="120" height="60" as="geometry" />
+          <mxGeometry x="50" y="3930" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yhTUn1hj1hSoAKpHzNoM-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ok05fjs2bpj7ajgnI6l9-129" target="yhTUn1hj1hSoAKpHzNoM-3">
           <mxGeometry relative="1" as="geometry" />
@@ -268,8 +268,14 @@
         <mxCell id="yhTUn1hj1hSoAKpHzNoM-45" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" parent="1" source="Ok05fjs2bpj7ajgnI6l9-129" target="yhTUn1hj1hSoAKpHzNoM-44">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="yhTUn1hj1hSoAKpHzNoM-48" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" parent="1" source="Ok05fjs2bpj7ajgnI6l9-129" target="yhTUn1hj1hSoAKpHzNoM-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Ok05fjs2bpj7ajgnI6l9-129" value="查询订单详情,查询活动" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="250" y="4040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yhTUn1hj1hSoAKpHzNoM-47" value="加锁防止重复回调" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="3930" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yhTUn1hj1hSoAKpHzNoM-44" value="订单已支付" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="450" y="4040" width="120" height="60" as="geometry" />
@@ -499,7 +505,7 @@
           <mxGeometry x="60" y="2840" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="yhTUn1hj1hSoAKpHzNoM-24" value="支付回调" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="60" y="4010" width="120" height="20" as="geometry" />
+          <mxGeometry x="50" y="3870" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="yhTUn1hj1hSoAKpHzNoM-28" value="扫码时获取sharingKey,通过sharingKey查到活动详情" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="890" width="180" height="120" as="geometry" />
