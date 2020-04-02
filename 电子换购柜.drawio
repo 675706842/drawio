@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-02T09:32:22.461Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36" etag="8bdllMH1XQ4krAAnDRBq" version="12.9.5" type="github">
+<mxfile host="www.draw.io" modified="2020-04-02T09:38:55.945Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36" etag="J3vDzHUfU5bmgmWTqXzf" version="12.9.5" type="github">
   <diagram id="_H2hld0KvXOal89NalA2" name="第 1 页">
     <mxGraphModel dx="1422" dy="919" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -92,11 +92,11 @@
         <mxCell id="Ok05fjs2bpj7ajgnI6l9-83" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Ok05fjs2bpj7ajgnI6l9-60" target="Ok05fjs2bpj7ajgnI6l9-75" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yhTUn1hj1hSoAKpHzNoM-51" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" parent="1" source="Ok05fjs2bpj7ajgnI6l9-60" target="yhTUn1hj1hSoAKpHzNoM-50">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="Ok05fjs2bpj7ajgnI6l9-60" value="查询活动详情" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="250" y="1580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yhTUn1hj1hSoAKpHzNoM-54" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" parent="1" source="yhTUn1hj1hSoAKpHzNoM-50" target="Ok05fjs2bpj7ajgnI6l9-60">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yhTUn1hj1hSoAKpHzNoM-50" value="拦截机制,防止重复下单" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="250" y="1480" width="120" height="60" as="geometry" />
@@ -274,11 +274,11 @@
         <mxCell id="yhTUn1hj1hSoAKpHzNoM-45" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" parent="1" source="Ok05fjs2bpj7ajgnI6l9-129" target="yhTUn1hj1hSoAKpHzNoM-44">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yhTUn1hj1hSoAKpHzNoM-48" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" parent="1" source="Ok05fjs2bpj7ajgnI6l9-129" target="yhTUn1hj1hSoAKpHzNoM-47">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="Ok05fjs2bpj7ajgnI6l9-129" value="查询订单详情,查询活动" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="250" y="4040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yhTUn1hj1hSoAKpHzNoM-53" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" parent="1" source="yhTUn1hj1hSoAKpHzNoM-47" target="Ok05fjs2bpj7ajgnI6l9-129">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yhTUn1hj1hSoAKpHzNoM-47" value="加锁防止重复回调" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="250" y="3930" width="120" height="60" as="geometry" />
