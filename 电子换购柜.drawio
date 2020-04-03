@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-03T05:34:26.129Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36" etag="xahnHzpPdd9mZ8Arwn6Z" version="12.9.5" type="github">
+<mxfile host="www.draw.io" modified="2020-04-03T06:08:05.412Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36" etag="fbKzTNh23zqgRlZJ_qac" version="12.9.5" type="github">
   <diagram id="_H2hld0KvXOal89NalA2" name="第 1 页">
     <mxGraphModel dx="1422" dy="919" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -57,7 +57,7 @@
         <mxCell id="yhTUn1hj1hSoAKpHzNoM-31" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.07;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#000000;dashed=1;" edge="1" parent="1" source="Ok05fjs2bpj7ajgnI6l9-49" target="yhTUn1hj1hSoAKpHzNoM-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ok05fjs2bpj7ajgnI6l9-49" value="生成sharingKey" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="Ok05fjs2bpj7ajgnI6l9-49" value="生成sharingKey(uid+actId进行加密)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="250" y="950" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yhTUn1hj1hSoAKpHzNoM-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yhTUn1hj1hSoAKpHzNoM-25" target="Ok05fjs2bpj7ajgnI6l9-51">
